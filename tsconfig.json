@@ -6,5 +6,5 @@
     "outDir": "./dist",
     "sourceMap": true
   },
-  "include": ["./*"]
+  "include": ["./*", "DemoWork/WebSocketServer.ts"]
 }

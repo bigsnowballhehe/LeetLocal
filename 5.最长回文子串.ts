@@ -16,7 +16,7 @@ function longestPalindrome(s: string): string {
       if (j - i + 1 > maxLength) {
         left = i
         right = j
-        maxLength = j-i+1
+        maxLength = j - i + 1
       }
       i--
       j++
@@ -24,10 +24,9 @@ function longestPalindrome(s: string): string {
   }
   for (let index = 0; index < length; index++) {
     getMaxStr(s, index, index)
-    getMaxStr(s,index,index+1)
+    getMaxStr(s, index, index + 1)
   }
 
-  return s.slice(left,right+1)
+  return s.slice(left, right + 1)
 }
 // @lc code=end
-
