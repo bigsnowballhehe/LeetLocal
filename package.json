@@ -15,5 +15,8 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
     "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7"
   }
 }

@@ -17,5 +17,5 @@ if(tmp.length %2 ===0){
     return tmp[Math.round(tmp.length/2)-1]
 }
 };
-// @lc code=end
+
 
