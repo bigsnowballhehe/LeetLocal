@@ -17,6 +17,7 @@
     "ws": "^8.13.0"
   },
   "devDependencies": {
+    "@snlan/eslint-config": "^1.0.3",
     "tsx": "^3.12.7"
   }
 }
